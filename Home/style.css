@@ -34,7 +34,7 @@ div>.login>button {
 
 div .buscar {
     border-radius: 20px;
-    margin-left: 3rem;
+    margin-left: 6rem;
     padding-left: 1rem;
     width: 25rem;
     height: 40px;
@@ -53,6 +53,7 @@ div .buscar {
 }
 
 /* banner */
+
 section div.img img {
     width: 100vw;
     height: 20rem;
@@ -65,28 +66,24 @@ section div.img img {
     align-items: start;
     flex-direction: column;
     position: absolute;
-    margin-top: -6.5rem;
+    margin-top: -7.5rem;
     left: 7rem;
     color: white;
 }
-.desconto{
+
+.desconto {
     margin-bottom: 1rem;
 }
+
 .promocao1 {
     color: white;
-    left:1.4rem;
+    left: 1.4rem;
     width: 50rem;
     font-size: 50px;
     font-weight: 800;
-    margin-top: -11rem;
+    margin-top: -13rem;
     position: absolute;
     text-align: center;
-}
-
-.deconto1 {
-
-    margin-left: 5rem;
-
 }
 
 .produtos {
@@ -110,7 +107,6 @@ section div.img img {
     width: 100%;
     display: flex;
     margin-top: -4rem;
-    background: red;
     position: absolute;
     justify-content: space-around;
     align-items: center;
@@ -121,13 +117,106 @@ section div.img img {
 
 }
 
-.startWars {
-    color: rgb(59, 58, 58);
-    font-size: 30px;
-    margin-bottom: 20px;
+nav.navGeral {
+    margin-top: 2rem;
 }
-nav .navGeral{
- display: flex;
- align-items: center;
- justify-content: center;   
+
+.saibamais {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71%;
+}
+
+.saibamais>p {
+    width: 28rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.saibamais>a>img {
+    position: absolute;
+    /* width: 1rem; */
+    margin-left: 10px;
+    align-items: center;
+}
+
+
+.saibamais>a {
+    width: 190px;
+    height: 19px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+.startWars {
+    display: flex;
+    color: rgb(59, 58, 58);
+
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.categoria1 {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: start;
+    width: 100%;
+}
+
+/*  */
+.nmProduto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+.preco {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    margin-top: 0.5rem;
+    /* Preto/100% */
+    top: 2rem;
+    color: #464646;
+}
+
+div li.categoria1 a {
+    font-family: 'Raleway';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 0.5rem;
+    /* identical to box height *
+    /* Azul/100% */
+
+    color: #2A7AE4;
+}
+
+/* rodape */
+
+.footer{
+    background: #EAF2FD;
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
 }
