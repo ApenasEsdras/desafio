@@ -1,0 +1,9 @@
+.Geral{
+  background: rgb(220, 239, 250);
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.cabecalho{
+  background: red;
+}
