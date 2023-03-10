@@ -1,222 +1,303 @@
 .Geral {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cabecalho {
-    margin-top: .5rem;
-    display: flex;
-    height: 15vh;
-    justify-content: space-around
+  margin-top: 0.5rem;
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
 }
 
 .center {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-div>.login>button {
-    background: rgb(255, 255, 255);
-    width: 13rem;
-    height: 3.5rem;
-    border-color: rgba(42, 122, 228, 0.638);
-    color: rgb(42, 122, 228);
-    font-size: 20px;
-    font-weight: 300;
+div > .login > button {
+  background: rgb(255, 255, 255);
+  width: 13rem;
+  height: 3.5rem;
+  border-color: rgba(42, 122, 228, 0.638);
+  color: rgb(42, 122, 228);
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .login {
-    margin-left: 15rem;
+  margin-left: 15rem;
 }
 
 div .buscar {
-    border-radius: 20px;
-    margin-left: 6rem;
-    padding-left: 1rem;
-    width: 25rem;
-    height: 40px;
-    border: none;
+  border-radius: 20px;
+  margin-left: 6rem;
+  padding-left: 1rem;
+  width: 25rem;
+  height: 40px;
+  border: none;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #aeadad1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #aeadad1f;
 }
 
 .vector {
-    position: absolute;
-    margin-left: 26.8rem;
-    margin-top: -1.8rem;
+  position: absolute;
+  margin-left: 26.8rem;
+  margin-top: -1.8rem;
 }
 
 /* banner */
 
 section div.img img {
-    width: 100vw;
-    height: 20rem;
-    object-fit: cover;
-    position: relative;
+  width: 100vw;
+  height: 20rem;
+  object-fit: cover;
+  position: relative;
 }
 
 .promocao {
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    position: absolute;
-    margin-top: -7.5rem;
-    left: 7rem;
-    color: white;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  position: absolute;
+  margin-top: -7.5rem;
+  left: 7rem;
+  color: white;
 }
 
 .desconto {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .promocao1 {
-    color: white;
-    left: 1.4rem;
-    width: 50rem;
-    font-size: 50px;
-    font-weight: 800;
-    margin-top: -13rem;
-    position: absolute;
-    text-align: center;
+  color: white;
+  left: 1.4rem;
+  width: 50rem;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: -13rem;
+  position: absolute;
+  text-align: center;
 }
 
 .produtos {
-    font-weight: 300;
-    border: none;
-    width: 10rem;
-    height: 2.5rem;
-    color: #f8f8f8;
-    background: #2A7AE4;
+  font-weight: 300;
+  border: none;
+  width: 10rem;
+  height: 2.5rem;
+  color: #f8f8f8;
+  background: #2a7ae4;
 }
 
 /* Produtos */
 
 .painel {
-    display: flex;
-    margin-top: 2rem;
-    justify-content: center;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
 }
 
 .categoria {
-    width: 100%;
-    display: flex;
-    margin-top: -4rem;
-    position: absolute;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  margin-top: -4rem;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .verMais {
-    font-size: 18px;
-
+  font-size: 18px;
 }
 
 nav.navGeral {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .saibamais {
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 71%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 71%;
 }
 
-.saibamais>p {
-    width: 28rem;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #464646;
+.saibamais > p {
+  width: 28rem;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #464646;
 }
 
-.saibamais>a>img {
-    position: absolute;
-    /* width: 1rem; */
-    margin-left: 10px;
-    align-items: center;
+.saibamais > a > img {
+  position: absolute;
+  /* width: 1rem; */
+  margin-left: 10px;
+  align-items: center;
 }
 
-
-.saibamais>a {
-    width: 190px;
-    height: 19px;
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #2A7AE4;
+.saibamais > a {
+  width: 190px;
+  height: 19px;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2a7ae4;
 }
 
 .startWars {
-    display: flex;
-    color: rgb(59, 58, 58);
+  display: flex;
+  color: rgb(59, 58, 58);
 
-    margin-bottom: 2rem;
-    gap: 1rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
 }
 
 .categoria1 {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: start;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: start;
+  width: 100%;
 }
 
 /*  */
 .nmProduto {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    margin-top: 0.5rem;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 0.5rem;
 }
 
 .preco {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
 
-    margin-top: 0.5rem;
-    /* Preto/100% */
-    top: 2rem;
-    color: #464646;
+  margin-top: 0.5rem;
+  /* Preto/100% */
+  top: 2rem;
+  color: #464646;
 }
 
 div li.categoria1 a {
-    font-family: 'Raleway';
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    margin-top: 0.5rem;
-    /* identical to box height *
+  font-family: "Raleway";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 0.5rem;
+  /* identical to box height *
     /* Azul/100% */
 
-    color: #2A7AE4;
+  color: #2a7ae4;
 }
 
-/* rodape */
+/* rodapé */
 
-.footer{
-    background: #EAF2FD;
+section.footer {
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background: rgba(234, 242, 253, 1);
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  background: rgba(234, 242, 253, 1);
+  gap: 10rem;
+}
+.sobre {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: -3.5rem;
+  right: 50rem;
+}
+
+.contato {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5.5rem;
+}
+
+.imgFooter {
+  position: absolute;
+  margin-left: -35rem;
+  margin-top: -17rem;
+}
+
+.descricao {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: rgba(70, 70, 70, 1);
+}
+#home {
+  border-radius: 10px 10px 0px 0px;
+  width: 560px;
+  height: 56px;
+  border: none;
+  font-size: 20px;
+  padding-left: 1rem;
+  padding-top: .5rem;
+}
+
+#msg {
+    padding-left: 1rem;
+    padding-top: .5rem;
+  border-radius: 10px 10px 0px 0px;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 560px;
+  height: 56px;
+  
+  font-size: 20px
+}
+.enviarFormulario {
+  width: 165px;
+  height: 51px;
+  background-color: rgba(42, 122, 228, 1);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.FaleConosco {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: (70, 70, 70, 1);
+  margin-bottom: 1rem;
+}
+
+.FooterFooter{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
-    padding: 5rem;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
